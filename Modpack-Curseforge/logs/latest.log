@@ -1,0 +1,205 @@
+[15:47:09] [main/INFO]: ModLauncher running: args [--username, PalorderCeo, --version, neoforge-21.1.214, --gameDir, C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack, --assetsDir, C:\Users\Visitor\curseforge\minecraft\Install\assets, --assetIndex, 17, --uuid, 78d8e34d5d1a4b2d85e2f0792d9e1a6c, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4cafc-2324f5-c4c394-733fa7-6d58a5, --xuid, 2535425104054379, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\Visitor\curseforge\minecraft\Quickplay\4d231c34-c8cf-4034-b126-bfa29f8030fc.json, , , , --fml.neoForgeVersion, 21.1.214, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]
+[15:47:09] [main/INFO]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[15:47:09] [main/INFO]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[15:47:09] [main/INFO]: Loading ImmediateWindowProvider fmlearlywindow
+[15:47:10] [main/INFO]: Trying GL version 4.6
+[15:47:10] [main/INFO]: Requested GL version 4.6 got version 4.6
+[15:47:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Visitor/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT
+[15:47:10] [pool-2-thread-1/INFO]: GL info: Quadro M5000/PCIe/SSE2 GL version 4.6.0 NVIDIA 572.83, NVIDIA Corporation
+[15:47:10] [main/INFO]: Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.214:client]
+[15:47:10] [main/INFO]: Found mod file "neoforge-21.1.214-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\Visitor\curseforge\minecraft\Install\libraries\net\neoforged\neoforge\21.1.214\neoforge-21.1.214-universal.jar]], reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "AdvancedPeripherals-1.21.1-0.7.57b.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "ae2wtlib-19.2.6.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "alltheleaks-1.1.0+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "appliedenergistics2-19.2.17.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "cc-tweaked-1.21.1-forge-1.116.2.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "chloride-NEOFORGE-mc1.21.1-v1.7.2.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "geckolib-neoforge-1.21.1-4.8.2.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "guideme-21.1.15.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "Jade-1.21.1-NeoForge-15.10.3.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "modernfix-neoforge-5.25.1+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "servercore-neoforge-1.5.5+1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "sodiumextras-neoforge-1.0.8-1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "superbwarfare-1.21.1-0.8.7.1-baa2609f.jar" [locator: {mods folder locator at C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack\mods}, reader: mod manifest]
+[15:47:11] [main/INFO]: Found 16 dependencies adding them to mods collection
+[15:47:11] [main/INFO]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: neoforge-21.1.214-universal.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found library file "dazzleconf-ext-snakeyaml-1.3.0-M2.jar" [parent: servercore-neoforge-1.5.5+1.21.1.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found mod file "fabric-renderer-api-v1-3.4.0+9c40919e19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found library file "jzlib-1.1.3.jar" [parent: cc-tweaked-1.21.1-forge-1.116.2.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found mod file "de.mari_023.ae2wtlib_api-19.2.6.jar" [parent: ae2wtlib-19.2.6.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found library file "net.neoforged.neoforge-coremods-21.1.214.jar" [parent: neoforge-21.1.214-universal.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found gamelibrary file "mixinsquared-neoforge-0.3.3.jar" [parent: alltheleaks-1.1.0+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found library file "dazzleconf-core-1.3.0-M2.jar" [parent: servercore-neoforge-1.5.5+1.21.1.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: Found library file "MixinSquared-0.3.3.jar" [parent: mixinsquared-neoforge-0.3.3.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found library file "cobalt-0.9.7.jar" [parent: cc-tweaked-1.21.1-forge-1.116.2.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found library file "Reflect-1.3.4.jar" [parent: ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found library file "snakeyaml-2.2.jar" [parent: servercore-neoforge-1.5.5+1.21.1.jar, locator: jarinjar]
+[15:47:11] [main/INFO]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[15:47:11] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Advanced Peripherals 0.7.57b (advancedperipherals)
+		AE2WTLib 19.2.6 (ae2wtlib)
+		AE2WTLib API 19.2.6 (ae2wtlib_api)
+		All The Leaks 1.1.0+1.21.1-neoforge (alltheleaks)
+		Applied Energistics 2 19.2.17 (ae2)
+		CC: Tweaked 1.116.2 (computercraft)
+		Chloride 1.7.2 (chloride)
+		Curios API 9.5.1+1.21.1 (curios)
+		Ferrite Core 7.0.2 (ferritecore)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		GeckoLib 4 4.8.2 (geckolib)
+		GuideME 21.1.15 (guideme)
+		ImmediatelyFast 1.6.7+1.21.1 (immediatelyfast)
+		Jade 15.10.3+neoforge (jade)
+		Minecraft 1.21.1 (minecraft)
+		ModernFix 5.25.1+mc1.21.1 (modernfix)
+		NeoForge 21.1.214 (neoforge)
+		Reese's Sodium Options 1.8.3+mc1.21.4 (reeses_sodium_options)
+		ServerCore 1.5.5+1.21.1 (servercore)
+		Sodium 0.6.13+mc1.21.1 (sodium)
+		Sodium Dynamic Lights 1.0.9 (sodiumdynamiclights)
+		Sodium Extras 1.0.7 (sodiumextras)
+		Sodium Options API 1.0.10 (sodiumoptionsapi)
+		Superb Warfare 0.8.7.1 (superbwarfare)
+[15:47:12] [main/INFO]: Compatibility level set to JAVA_21
+[15:47:12] [main/INFO]: Launching target 'forgeclient' with arguments [--version, neoforge-21.1.214, --gameDir, C:\Users\Visitor\curseforge\minecraft\Instances\CloverOS-Modpack, --assetsDir, C:\Users\Visitor\curseforge\minecraft\Install\assets, --uuid, 78d8e34d5d1a4b2d85e2f0792d9e1a6c, --username, PalorderCeo, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, c4cafc-2324f5-c4c394-733fa7-6d58a5, --xuid, 2535425104054379, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\Visitor\curseforge\minecraft\Quickplay\4d231c34-c8cf-4034-b126-bfa29f8030fc.json, , , ]
+[15:47:20] [main/WARN]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/INFO]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 79 options available, 0 override(s) found
+[15:47:20] [main/INFO]: Applying Nashorn fix
+[15:47:20] [main/INFO]: Configuring Minecraft's max.bg.threads option with 9 threads
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/WARN]: Reference map 'mixins.superbwarfare.refmap.json' for mixins.superbwarfare.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[15:47:20] [main/WARN]: Reference map 'chloride.mixin-refmap.json' for chloride.mixin.json could not be read. If this is a development environment you can ignore this message
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.common.mods.neoforge.Issue1487 will be loaded as it matches versions: 21.1.214 in [21.,)
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, main.accessor.PlayerAdvancementsAccessor]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.common.mods.neoforge.Issue1486 will be loaded as it matches versions: 21.1.214 in [21.,)
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.21.1 in 1.21.1
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.21.1 in 1.21.1
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.EntityTickListMixin]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.common.mods.geckolib.UntrackedIssue001 will be loaded as it matches versions: 4.8.2 in *
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.SingletonGeoAnimatableMixin]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.Issue22 will be loaded as it matches versions: 9.5.1+1.21.1 in [9.0.6,)
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.client.mods.neoforge.UntrackedIssue001 will be loaded as it matches versions: 21.1.214 in [21.,)
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.MinecraftMixin2]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.client.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.21.1 in 1.21.1
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.MinecraftMixin]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.leaks.client.mods.jade.UntrackedIssue001 will be loaded as it matches versions: 15.10.3+neoforge in [15.1.8,)
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.21.1 in 1.20.1
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin]
+[15:47:20] [main/INFO]: Class dev.uncandango.alltheleaks.diag.common.mods.minecraft.LogSavedData will be loaded as it matches versions: 21.1.214 in [21.1,)
+[15:47:20] [main/INFO]: Mixins added to allowed list: [main.SavedDataMixin]
+[15:47:21] [main/WARN]: Error loading class: dev/emi/emi/screen/EmiScreenManager (java.lang.ClassNotFoundException: dev.emi.emi.screen.EmiScreenManager)
+[15:47:21] [main/WARN]: Error loading class: mezz/jei/gui/overlay/IngredientListOverlay (java.lang.ClassNotFoundException: mezz.jei.gui.overlay.IngredientListOverlay)
+[15:47:21] [main/WARN]: Error loading class: me/shedaniel/rei/impl/client/gui/ScreenOverlayImpl (java.lang.ClassNotFoundException: me.shedaniel.rei.impl.client.gui.ScreenOverlayImpl)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[15:47:21] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/aocalc/AoCalculator (java.lang.ClassNotFoundException: net.fabricmc.fabric.impl.client.indigo.renderer.aocalc.AoCalculator)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[15:47:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[15:47:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10nov2025 15:47:24.083] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 520 milliseconds
+[10nov2025 15:47:24.399] [pool-15-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (16.73 s after launch)
+[10nov2025 15:47:24.963] [pool-15-thread-1/WARN] [mixin/]: Method overwrite conflict for skipRendering in chloride.mixin.json:leaves_culling.LeavesBlockMixin from mod chloride, previously written by net.caffeinemc.mods.sodium.mixin.features.options.render_layers.LeavesBlockMixin. Skipping method.
+[10nov2025 15:47:25.173] [pool-15-thread-1/WARN] [mixin/]: Discarding @Unique public method embPlus$resourceLocation in chloride.mixin.json:EntityDistanceCullingMixin$EntityTypeMixin from mod chloride because it already exists in net.minecraft.world.entity.EntityType
+[10nov2025 15:47:28.486] [pool-15-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 4086 milliseconds
+[10nov2025 15:47:28.755] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method setSectionDirty in sodium-common.mixins.json:core.render.world.LevelRendererMixin from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[10nov2025 15:47:28.841] [main/INFO] [net.minecraft.client.main.Main/]: Completely ignored arguments: [, , ]
+[10nov2025 15:47:29.057] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Visitor/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23208!/assets/.mcassetsroot' uses unexpected schema
+[10nov2025 15:47:29.057] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Visitor/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23208!/data/.mcassetsroot' uses unexpected schema
+[10nov2025 15:47:29.091] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10nov2025 15:47:29.110] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: PalorderCeo
+[10nov2025 15:47:29.297] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[10nov2025 15:47:29.320] [Render thread/WARN] [mixin/]: @Redirect conflict. Skipping chloride.mixin.json:BorderlessMixin$WindowMixin from mod chloride->@Redirect::redirect$glfwSetWindowMonitor(JJIIIII)V with priority 1000, already redirected by mixins.sodiumextras.json:impl.borderless.BorderlessWindowMixin from mod sodiumextras->@Redirect::redirect$glfwSetWindowMonitor(JJIIIII)V with priority 1000
+[10nov2025 15:47:29.321] [Render thread/WARN] [mixin/]: @Redirect conflict. Skipping chloride.mixin.json:BorderlessMixin$WindowMixin from mod chloride->@Redirect::redirect$glfwSetWindowMonitor(JJIIIII)V with priority 1000, already redirected by mixins.sodiumextras.json:impl.borderless.BorderlessWindowMixin from mod sodiumextras->@Redirect::redirect$glfwSetWindowMonitor(JJIIIII)V with priority 1000
+[10nov2025 15:47:29.321] [Render thread/WARN] [mixin/]: @Redirect conflict. Skipping chloride.mixin.json:BorderlessMixin$WindowMixin from mod chloride->@Redirect::redirect$glfwGetWindowMonitor(J)J with priority 1000, already redirected by mixins.sodiumextras.json:impl.borderless.BorderlessWindowMixin from mod sodiumextras->@Redirect::redirect$glfwGetWindowMonitor(J)J with priority 1000
+[10nov2025 15:47:29.556] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: NVIDIA Corporation
+[10nov2025 15:47:29.556] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: Quadro M5000/PCIe/SSE2
+[10nov2025 15:47:29.556] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 NVIDIA 572.83
+[10nov2025 15:47:29.573] [Render thread/INFO] [Sodium-NvidiaWorkarounds/]: Modifying OpenGL context to apply workarounds for the NVIDIA graphics driver...
+[10nov2025 15:47:29.662] [Render thread/INFO] [ImmediatelyFast/]: Initializing ImmediatelyFast 1.6.7+1.21.1 on Quadro M5000/PCIe/SSE2 (NVIDIA Corporation) with OpenGL 4.6.0 NVIDIA 572.83
+[10nov2025 15:47:29.886] [modloading-worker-0/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
+[10nov2025 15:47:29.983] [modloading-worker-0/INFO] [chloride/Main]: Chloride is here, lets make your experience taste-able
+[10nov2025 15:47:30.025] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.214, for MC 1.21.1
+[10nov2025 15:47:30.086] [modloading-worker-0/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
+[10nov2025 15:47:30.139] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.5+1.21.1!
+[10nov2025 15:47:30.143] [modloading-worker-0/INFO] [Advanced Peripherals/]: mekanism not loaded, skip integration loading
+[10nov2025 15:47:30.144] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for mekanism
+[10nov2025 15:47:30.144] [modloading-worker-0/INFO] [Advanced Peripherals/]: powah not loaded, skip integration loading
+[10nov2025 15:47:30.144] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for powah
+[10nov2025 15:47:32.011] [modloading-sync-worker/INFO] [SodiumExtras/Config]: Updating config cache
+[10nov2025 15:47:32.012] [modloading-sync-worker/INFO] [SodiumExtras/Config]: Cache updated successfully
+[10nov2025 15:47:32.056] [Render thread/INFO] [chloride/]: Registering CHLORIDE built-in packs
+[10nov2025 15:47:33.264] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/advancedperipherals, mod/sodiumextras, mod/jade, mod/geckolib, mod/alltheleaks, mod/ae2, mod/ae2wtlib, mod/ae2wtlib_api, mod/servercore, mod/reeses_sodium_options, mod/curios, mod/neoforge, mod/modernfix, mod/fabric_block_view_api_v2, mod/immediatelyfast, mod/guideme, mod/ferritecore, mod/computercraft, mod/superbwarfare, mod/fabric_rendering_data_attachment_v1, mod/chloride, mod/sodiumoptionsapi, mod/sodiumdynamiclights
+[10nov2025 15:47:33.325] [Worker-ResourceReload-8/INFO] [com.atsuishio.superbwarfare.Mod/]: This Mod used to be made by MCreator!
+[10nov2025 15:47:33.377] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ae2wtlib] Starting version check at https://api.modrinth.com/updates/applied-energistics-2-wireless-terminals/forge_updates.json?neoforge=only
+[10nov2025 15:47:33.528] [Worker-ResourceReload-9/INFO] [chloride/]: LOADED CHLORIDE
+[10nov2025 15:47:33.529] [Worker-ResourceReload-9/INFO] [sodiumdynamiclights/]: [LambDynLights] Initializing SodiumDynamicLights...
+[10nov2025 15:47:33.605] [Worker-ResourceReload-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[10nov2025 15:47:33.919] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ae2wtlib] Found status: UP_TO_DATE Current: 19.2.6 Target: null
+[10nov2025 15:47:33.920] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[10nov2025 15:47:34.089] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.116.2 Target: null
+[10nov2025 15:47:34.562] [Worker-ResourceReload-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[10nov2025 15:47:36.789] [Worker-ResourceReload-10/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model superbwarfare:igla_9k38#inventory:
+    minecraft:textures/atlas/blocks.png:igla_9k38:item/igla_9k38
+[10nov2025 15:47:36.955] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[10nov2025 15:47:37.037] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[10nov2025 15:47:37.043] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[10nov2025 15:47:37.046] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[10nov2025 15:47:37.050] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[10nov2025 15:47:37.054] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from appeng.integration.modules.jade.JadeModule
+[10nov2025 15:47:37.070] [Worker-ResourceReload-8/INFO] [snownee.jade.Jade/]: Start loading plugin from com.atsuishio.superbwarfare.compat.jade.SbwJadePlugin
+[10nov2025 15:47:37.425] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10nov2025 15:47:37.426] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10nov2025 15:47:37.679] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Hoofdtelefoon (Synaptics HD Audio)
+[10nov2025 15:47:37.680] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10nov2025 15:47:37.783] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[10nov2025 15:47:37.866] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10nov2025 15:47:37.867] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10nov2025 15:47:37.868] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10nov2025 15:47:37.869] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10nov2025 15:47:37.871] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10nov2025 15:47:37.871] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10nov2025 15:47:37.872] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10nov2025 15:47:37.873] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10nov2025 15:47:38.010] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/particles.png-atlas
+[10nov2025 15:47:38.012] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[10nov2025 15:47:38.012] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10nov2025 15:47:38.013] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[10nov2025 15:47:38.013] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[10nov2025 15:47:38.036] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10nov2025 15:47:38.109] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[10nov2025 15:47:38.109] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
+[10nov2025 15:47:40.217] [Render thread/WARN] [ModernFix/]: Game took 32.544 seconds to start

@@ -373,6 +373,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:phantom": "2025-11-10 15:24:51 +0100",
       "minecraft:zombie": "2025-11-04 11:55:22 +0100",
       "minecraft:wither": "2025-11-04 11:53:23 +0100",
       "minecraft:slime": "2025-11-04 11:53:56 +0100"
@@ -690,12 +691,6 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/turtle_advanced/minecraft/diamond_sword": {
-    "criteria": {
-      "has_items": "2025-11-10 15:08:31 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2025-11-10 15:07:40 +0100"
@@ -705,6 +700,12 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2025-11-10 15:07:40 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced/minecraft/diamond_sword": {
+    "criteria": {
+      "has_items": "2025-11-10 15:08:31 +0100"
     },
     "done": true
   },
