@@ -1,0 +1,605 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-11-03 13:21:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-11-03 13:21:12 +0100"
+    },
+    "done": false
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/rainbow_flag": {
+    "criteria": {
+      "has_turtle": "2025-11-03 13:21:37 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/trans_flag": {
+    "criteria": {
+      "has_turtle": "2025-11-03 13:21:37 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced/computercraft/speaker": {
+    "criteria": {
+      "has_items": "2025-11-03 13:21:38 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_normal": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printer": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/cable": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_advanced": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_normal": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_advanced": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_drive": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/speaker": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_normal": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_dan200": {
+    "criteria": {
+      "has_computer": "2025-11-03 13:21:43 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem_full_from": {
+    "criteria": {
+      "has_modem": "2025-11-03 13:22:11 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem_full_to": {
+    "criteria": {
+      "has_modem": "2025-11-03 13:22:11 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/redstone_relay": {
+    "criteria": {
+      "has_cable": "2025-11-03 13:22:13 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_8": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_9": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_6": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_7": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_1": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_4": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_5": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_2": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_3": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_12": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_11": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_14": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_13": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_10": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_16": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_15": {
+    "criteria": {
+      "has_drive": "2025-11-03 13:23:41 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printed_pages": {
+    "criteria": {
+      "has_printer": "2025-11-03 13:24:32 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printed_book": {
+    "criteria": {
+      "has_printer": "2025-11-03 13:24:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-11-03 13:27:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-11-03 13:27:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-11-03 13:27:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-11-03 13:27:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2025-11-03 13:28:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2025-11-03 13:28:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2025-11-03 13:28:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-11-03 13:29:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-11-03 13:32:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-11-03 13:42:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-11-03 13:42:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-11-03 13:42:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-11-03 13:42:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-11-03 13:42:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-11-03 13:46:23 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:main/root": {
+    "criteria": {
+      "0": "2025-11-03 14:21:17 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:main/super_container": {
+    "criteria": {
+      "0": "2025-11-03 14:29:13 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:main/physics_excalibur": {
+    "criteria": {
+      "0": "2025-11-03 14:29:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_spring": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2025-11-04 11:55:22 +0100",
+      "minecraft:wither": "2025-11-04 11:53:23 +0100",
+      "minecraft:slime": "2025-11-04 11:53:56 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_trigger": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/speedboat": {
+    "criteria": {
+      "has_m_2_hb": "2025-11-04 12:06:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/mortar_barrel": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-11-04 12:03:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-11-04 12:03:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/combat/ammo_box": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_barrel": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-11-04 12:03:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:wither": "2025-11-04 11:53:23 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/mortar_base_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "superbwarfare:recipes/misc/iron_action": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-11-04 12:05:59 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
