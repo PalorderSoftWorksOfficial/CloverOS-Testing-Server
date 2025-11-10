@@ -91,7 +91,23 @@ function GDI.box(x, y, w, h, title, fg, bg)
     GDI.text(x, y + h - 1, "+" .. string.rep("-", w - 2) .. "+", fg, bg)
     if title then GDI.text(x + 2, y, title, colors.cyan, bg) end
 end
-
+-- Register OSAPI's if it doesnt exist
+if not osAPI or not osAPI.GDI then
+osAPIFunc = {
+   version = function ()
+    return "CloverOS v1.0.0"
+   end,
+    author = function ()
+     return "CloverOS Team"
+    end,
+    runInstaller = function ()
+    shell.run("wget run https://palordersoftworksofficial.github.io/CloverOS/netinstall.lua")
+    end,
+    GDI = GDI,
+}
+osAPI = osAPIFunc
+GDI = osAPI.GDI
+end
 -- Stream display (send monitor contents to modem)
 local function streamDisplay()
     if not monitor or not modem then return end
@@ -340,6 +356,8 @@ end
 -- CMD terminal
 local function cmd()
     local w,h=term.getSize()
+    local cc_completion = cc.completion
+
     local function drawWindow()
         mirroredClear()
         mirroredSetCursor(1,1)
@@ -378,39 +396,35 @@ local function cmd()
 
     local running=true
     local builtin={
-    help = function()
-        local cmds = listCommands()
-        local cmdList = {}
-
-        for c, _ in pairs(cmds) do
-            table.insert(cmdList, c)
-        end
-
-        table.sort(cmdList)
-
-        local i = 1
-        while i <= #cmdList do
-            for j = 0, 3 do
-                if cmdList[i + j] then
-                    mirroredPrint(cmdList[i + j])
+        help = function()
+            local cmds = listCommands()
+            local cmdList = {}
+            for c, _ in pairs(cmds) do
+                table.insert(cmdList, c)
+            end
+            table.sort(cmdList)
+            local i = 1
+            while i <= #cmdList do
+                for j = 0, 3 do
+                    if cmdList[i + j] then
+                        mirroredPrint(cmdList[i + j])
+                    end
+                end
+                i = i + 4
+                if i <= #cmdList then
+                    mirroredPrint("Press Enter to see more...")
+                    read()
                 end
             end
-            i = i + 4
-            if i <= #cmdList then
-                mirroredPrint("Press Enter to see more...")
-                read()
-            end
-        end
-
-        mirroredPrint("exit")
-        mirroredPrint("shutdown")
-        mirroredPrint("help")
-        mirroredPrint("installer")
-    end,
+            mirroredPrint("exit")
+            mirroredPrint("shutdown")
+            mirroredPrint("help")
+            mirroredPrint("installer")
+        end,
         exit=function() running=false end,
         shutdown=function() os.shutdown() end,
         installer=function() 
-        shell.run("wget run https://palordersoftworksofficial.github.io/CloverOS/netinstall.lua")
+            shell.run("wget run https://palordersoftworksofficial.github.io/CloverOS/netinstall.lua")
         end
     }
 
@@ -419,14 +433,54 @@ local function cmd()
     mirroredPrint("Welcome to Clover OS Command Prompt")
     mirroredSetCursor(3,4)
     mirroredPrint("Type 'help' to list available commands")
-    if _G.softinstall == true then
+    if settings.get("softinstall") == true then
         mirroredSetCursor(3,5)
         mirroredPrint("Note: You are running a soft installation, apt fetch packages if you want apps etc.")
     end
 
     while running do
         mirroredWrite("\nroot@CloverOS:~$ ")
-        local input=mirroredRead()
+        local input = ""
+        local cursor = 0
+
+        while true do
+            local event,key = os.pullEvent("key")
+            if key == keys.enter then
+                mirroredWrite("\n")
+                break
+            elseif key == keys.backspace then
+                if #input > 0 then
+                    input = input:sub(1,-2)
+                    cursor = cursor - 1
+                    mirroredSetCursor(1,h)
+                    mirroredWrite(input .. " ")
+                    mirroredSetCursor(cursor+1,h)
+                end
+            elseif key == keys.tab then
+                local allCommands = {}
+                for k in pairs(builtin) do table.insert(allCommands, k) end
+                local external = listCommands()
+                for k in pairs(external) do table.insert(allCommands, k) end
+                local matches = cc_completion.complete(input, allCommands)
+                if #matches == 1 then
+                    input = matches[1]
+                    cursor = #input
+                    mirroredSetCursor(1,h)
+                    mirroredWrite(input)
+                elseif #matches > 1 then
+                    mirroredPrint("\nSuggestions: " .. table.concat(matches, ", "))
+                    mirroredWrite("root@CloverOS:~$ " .. input)
+                end
+            else
+                local char = keys.getName(key)
+                if #char == 1 then
+                    input = input .. char
+                    cursor = cursor + 1
+                    mirroredWrite(char)
+                end
+            end
+        end
+
         if input=="" then goto continue end
         local parts={}
         for word in input:gmatch("%S+") do table.insert(parts,word) end

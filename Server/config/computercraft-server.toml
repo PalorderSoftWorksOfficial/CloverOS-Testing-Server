@@ -1,7 +1,7 @@
 #The disk space limit for computers and turtles, in bytes.
-computer_space_limit = 1000000
+computer_space_limit = 1073741824
 #The disk space limit for floppy disks, in bytes.
-floppy_space_limit = 125000
+floppy_space_limit = 1073741824
 #The file upload size limit, in bytes. Must be in range of 1 KiB and 16 MiB.
 #Keep in mind that uploads are processed in a single tick - large files or
 #poor network performance can stall the networking thread. And mind the disk space!
@@ -58,33 +58,33 @@ disabled_generic_methods = []
 
 #Controls the HTTP API
 [http]
+	#The number of websockets a computer can have open at one time.
+	# Default: 4
+	# Range: > 1
+	max_websockets = 64
+	#The number of http requests a computer can make at one time. Additional requests
+	#will be queued, and sent when the running requests have finished. Set to 0 for
+	#unlimited.
+	# Default: 16
+	# Range: > 0
+	max_requests = 64
 	#Enable the "http" API on Computers. Disabling this also disables the "pastebin" and
 	#"wget" programs, that many users rely on. It's recommended to leave this on and use
 	#the "rules" config option to impose more fine-grained control.
 	enabled = true
 	#Enable use of http websockets. This requires the "http_enable" option to also be true.
 	websocket_enabled = true
-	#The number of http requests a computer can make at one time. Additional requests
-	#will be queued, and sent when the running requests have finished. Set to 0 for
-	#unlimited.
-	# Default: 16
-	# Range: > 0
-	max_requests = 16
-	#The number of websockets a computer can have open at one time.
-	# Default: 4
-	# Range: > 1
-	max_websockets = 4
 
 	#Limits bandwidth used by computers.
 	[http.bandwidth]
-		#The number of bytes which can be downloaded in a second. This is shared across all computers. (bytes/s).
-		# Default: 33554432
-		# Range: > 1
-		global_download = 33554432
 		#The number of bytes which can be uploaded in a second. This is shared across all computers. (bytes/s).
 		# Default: 33554432
 		# Range: > 1
-		global_upload = 33554432
+		global_upload = 125000000
+		#The number of bytes which can be downloaded in a second. This is shared across all computers. (bytes/s).
+		# Default: 33554432
+		# Range: > 1
+		global_download = 125000000
 
 	#Tunnels HTTP and websocket requests through a proxy server. Only affects HTTP
 	#rules with "use_proxy" set to true (off by default).
@@ -199,7 +199,7 @@ disabled_generic_methods = []
 #Various options relating to turtles.
 [turtle]
 	#Set whether Turtles require fuel to move.
-	need_fuel = true
+	need_fuel = false
 	#The fuel limit for Turtles.
 	# Default: 20000
 	# Range: > 0
