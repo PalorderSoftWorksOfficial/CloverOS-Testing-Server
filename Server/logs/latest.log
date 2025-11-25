@@ -1,288 +1,597 @@
-[11nov2025 13:50:18.953] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.214, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[11nov2025 13:50:18.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
-[11nov2025 13:50:18.957] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.6 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[11nov2025 13:50:19.192] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11nov2025 13:50:19.354] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/CloverOS-Testing-Server/Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
-[11nov2025 13:50:19.552] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.214:server]
-[11nov2025 13:50:19.571] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.214-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.214\neoforge-21.1.214-universal.jar]], reader: mod manifest]
-[11nov2025 13:50:19.572] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "~nonexistent" [locator: org.sinytra.connector.locator.ConnectorEarlyLocatorBootstrap@59d2103b]
-[11nov2025 13:50:19.582] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "AdvancedPeripherals-1.21.1-0.7.57b.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.586] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ae2wtlib-19.2.6.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.590] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "alltheleaks-1.1.0+1.21.1-neoforge.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.593] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appliedenergistics2-19.2.17.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.596] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cc-tweaked-1.21.1-forge-1.116.2.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.599] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.606] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ferritecore-7.0.2-neoforge.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.610] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.612] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.21.1-4.8.2.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "guideme-21.1.15.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.619] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.622] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "modernfix-neoforge-5.25.1+mc1.21.1.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.624] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "servercore-neoforge-1.5.5+1.21.1.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.626] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "superbwarfare-1.21.1-0.8.7.1-baa2609f.jar" [locator: {mods folder locator at C:\CloverOS-Testing-Server\Server\mods}, reader: mod manifest]
-[11nov2025 13:50:19.882] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:net.fabricmc.loader. Using Mod File: \~nonexistent
-[11nov2025 13:50:19.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 53 dependencies adding them to mods collection
-[11nov2025 13:50:19.882] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transfer-api-v1-5.4.2+a25cb45619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "dazzleconf-ext-snakeyaml-1.3.0-M2.jar" [parent: servercore-neoforge-1.5.5+1.21.1.jar, locator: jarinjar]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+9c40919e19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "de.mari_023.ae2wtlib_api-19.2.6.jar" [parent: ae2wtlib-19.2.6.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-api-v1-11.1.1+57cdfa8219.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.214.jar" [parent: neoforge-21.1.214-universal.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-model-loading-api-v1-2.0.0+986ae77219.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-fluids-v1-3.1.6+857185bc19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-handler-api-v1-1.3.88+8dbc56dd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "MixinSquared-0.3.3.jar" [parent: mixinsquared-neoforge-0.3.3.jar, locator: jarinjar]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-loader-v0-1.3.1+4ea8954419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "cobalt-0.9.7.jar" [parent: cc-tweaked-1.21.1-forge-1.116.2.jar, locator: jarinjar]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-v1-5.0.5+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-indigo-1.7.0+4198af7119.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v1-2.1.4+7f945d5b19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.11+e9036fd419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-command-api-v2-2.2.28+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-convention-tags-v2-2.11.0+87e5848019.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-attachment-api-v1-1.4.3+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-screen-api-v1-2.0.25+4228281319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "dazzleconf-core-1.3.0-M2.jar" [parent: servercore-neoforge-1.5.5+1.21.1.jar, locator: jarinjar]
-[11nov2025 13:50:19.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "Reflect-1.3.4.jar" [parent: ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar, locator: jarinjar]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-particles-v1-4.0.2+824f924c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-content-registries-v0-8.0.18+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "snakeyaml-2.2.jar" [parent: servercore-neoforge-1.5.5+1.21.1.jar, locator: jarinjar]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [parent: alltheleaks-1.1.0+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-game-rule-api-v1-1.0.53+36d727be19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jzlib-1.1.3.jar" [parent: cc-tweaked-1.21.1-forge-1.116.2.jar, locator: jarinjar]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-lookup-api-v1-1.6.70+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-blockrenderlayer-v1-1.1.52+c290471319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinsquared-neoforge-0.3.3.jar" [parent: alltheleaks-1.1.0+1.21.1-neoforge.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-api-v1-1.0.22+a6e994cd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-item-group-api-v1-4.1.7+e324903319.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-gametest-api-v1-2.0.5+29f188ce19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-biome-api-v1-13.0.31+1e62d33c19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-entity-events-v1-1.7.0+1af6e62419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-registry-sync-v0-5.2.0+867470b919.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-recipe-api-v1-5.0.14+59440bcc19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-object-builder-api-v1-15.2.1+cc242efd19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v2-3.0.15+a3ee712d19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-loot-api-v3-1.0.3+333dfad919.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-networking-api-v1-4.3.0+30a980d919.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-sound-api-v1-1.0.23+10b84f8419.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-message-api-v1-6.0.13+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.887] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-lifecycle-events-v1-2.5.0+a2ee258a19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-data-generation-api-v1-20.2.28+2d91a6db19.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-events-interaction-v0-0.7.13+7b71cc1619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:19.888] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-client-tags-api-v1-1.1.15+e053909619.jar" [parent: forgified-fabric-api-0.115.6+2.1.4+1.21.1.jar, locator: jarinjar, reader: mod manifest]
-[11nov2025 13:50:20.015] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
-[11nov2025 13:50:20.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[11nov2025 13:50:20.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "org.sinytra.connector-2.0.0-beta.11+1.21.1-mod.jar" [parent: , locator: org.sinytra.connector.locator.ConnectorLocator@482d776b, reader: mod manifest]
-[11nov2025 13:50:20.157] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "runtime-1.0.0+1.21.1.jar" [parent: , locator: org.sinytra.connector.locator.ConnectorLocator@482d776b, reader: mod manifest]
-[11nov2025 13:50:20.160] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
-     Mod List:
-		Name Version (Mod Id)
-
-		Advanced Peripherals 0.7.57b (advancedperipherals)
-		AE2WTLib 19.2.6 (ae2wtlib)
-		AE2WTLib API 19.2.6 (ae2wtlib_api)
-		All The Leaks 1.1.0+1.21.1-neoforge (alltheleaks)
-		Applied Energistics 2 19.2.17 (ae2)
-		CC: Tweaked 1.116.2 (computercraft)
-		Curios API 9.5.1+1.21.1 (curios)
-		Ferrite Core 7.0.2 (ferritecore)
-		Forgified Fabric API 0.115.6+2.1.4+1.21.1 (fabric_api)
-		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
-		Forgified Fabric API Lookup API (v1) 1.6.70+c290471319 (fabric_api_lookup_api_v1)
-		Forgified Fabric Biome API (v1) 13.0.31+1e62d33c19 (fabric_biome_api_v1)
-		Forgified Fabric Block API (v1) 1.0.22+a6e994cd19 (fabric_block_api_v1)
-		Forgified Fabric BlockRenderLayer Registration (v1) 1.1.52+c290471319 (fabric_blockrenderlayer_v1)
-		Forgified Fabric BlockView API (v2) 1.0.11+e9036fd419 (fabric_block_view_api_v2)
-		Forgified Fabric Client Tags 1.1.15+e053909619 (fabric_client_tags_api_v1)
-		Forgified Fabric Command API (v2) 2.2.28+36d727be19 (fabric_command_api_v2)
-		Forgified Fabric Content Registries (v0) 8.0.18+c290471319 (fabric_content_registries_v0)
-		Forgified Fabric Convention Tags 2.1.4+7f945d5b19 (fabric_convention_tags_v1)
-		Forgified Fabric Convention Tags (v2) 2.11.0+87e5848019 (fabric_convention_tags_v2)
-		Forgified Fabric Data Attachment API (v1) 1.4.3+c290471319 (fabric_data_attachment_api_v1)
-		Forgified Fabric Data Generation API (v1) 20.2.28+2d91a6db19 (fabric_data_generation_api_v1)
-		Forgified Fabric Entity Events (v1) 1.7.0+1af6e62419 (fabric_entity_events_v1)
-		Forgified Fabric Events Interaction (v0) 0.7.13+7b71cc1619 (fabric_events_interaction_v0)
-		Forgified Fabric Game Rule API (v1) 1.0.53+36d727be19 (fabric_game_rule_api_v1)
-		Forgified Fabric Game Test API (v1) 2.0.5+29f188ce19 (fabric_gametest_api_v1)
-		Forgified Fabric Item API (v1) 11.1.1+57cdfa8219 (fabric_item_api_v1)
-		Forgified Fabric Item Group API (v1) 4.1.7+e324903319 (fabric_item_group_api_v1)
-		Forgified Fabric Key Binding API (v1) 1.0.47+62cc7ce119 (fabric_key_binding_api_v1)
-		Forgified Fabric Lifecycle Events (v1) 2.5.0+a2ee258a19 (fabric_lifecycle_events_v1)
-		Forgified Fabric Loot API (v2) 3.0.15+a3ee712d19 (fabric_loot_api_v2)
-		Forgified Fabric Loot API (v3) 1.0.3+333dfad919 (fabric_loot_api_v3)
-		Forgified Fabric Message API (v1) 6.0.13+e053909619 (fabric_message_api_v1)
-		Forgified Fabric Model Loading API (v1) 2.0.0+986ae77219 (fabric_model_loading_api_v1)
-		Forgified Fabric Networking API (v1) 4.3.0+30a980d919 (fabric_networking_api_v1)
-		Forgified Fabric Object Builder API (v1) 15.2.1+cc242efd19 (fabric_object_builder_api_v1)
-		Forgified Fabric Particles (v1) 4.0.2+824f924c19 (fabric_particles_v1)
-		Forgified Fabric Recipe API (v1) 5.0.14+59440bcc19 (fabric_recipe_api_v1)
-		Forgified Fabric Registry Sync (v0) 5.2.0+867470b919 (fabric_registry_sync_v0)
-		Forgified Fabric Renderer - Indigo 1.7.0+4198af7119 (fabric_renderer_indigo)
-		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
-		Forgified Fabric Rendering (v1) 5.0.5+c290471319 (fabric_rendering_v1)
-		Forgified Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19 (fabric_rendering_data_attachment_v1)
-		Forgified Fabric Rendering Fluids (v1) 3.1.6+857185bc19 (fabric_rendering_fluids_v1)
-		Forgified Fabric Resource Conditions API (v1) 4.3.0+5bdd099819 (fabric_resource_conditions_api_v1)
-		Forgified Fabric Resource Loader (v0) 1.3.1+4ea8954419 (fabric_resource_loader_v0)
-		Forgified Fabric Screen API (v1) 2.0.25+4228281319 (fabric_screen_api_v1)
-		Forgified Fabric Screen Handler API (v1) 1.3.88+8dbc56dd19 (fabric_screen_handler_api_v1)
-		Forgified Fabric Sound API (v1) 1.0.23+10b84f8419 (fabric_sound_api_v1)
-		Forgified Fabric Transfer API (v1) 5.4.2+a25cb45619 (fabric_transfer_api_v1)
-		Forgified Fabric Transitive Access Wideners (v1) 6.2.0+6c854b6f19 (fabric_transitive_access_wideners_v1)
-		GeckoLib 4 4.8.2 (geckolib)
-		GuideME 21.1.15 (guideme)
-		ImmediatelyFast 1.6.7+1.21.1 (immediatelyfast)
-		Minecraft 1.21.1 (minecraft)
-		ModernFix 5.25.1+mc1.21.1 (modernfix)
-		NeoForge 21.1.214 (neoforge)
-		ServerCore 1.5.5+1.21.1 (servercore)
-		Sinytra Connector 2.0.0-beta.11+1.21.1 (connector)
-		Superb Warfare 0.8.7.1 (superbwarfare)
-[11nov2025 13:50:20.477] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[11nov2025 13:50:20.483] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module brigadier transformable
-[11nov2025 13:50:20.784] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11nov2025 13:50:20.786] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[11nov2025 13:50:20.861] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[11nov2025 13:50:20.943] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.021] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.1+mc1.21.1: 79 options available, 0 override(s) found
-[11nov2025 13:50:21.022] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[11nov2025 13:50:21.025] [main/WARN] [mixin/]: Reference map 'mixins.superbwarfare.refmap.json' for mixins.superbwarfare.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.184] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.184] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.210] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.predicates.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.211] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.fastmap.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.211] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.mrl.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.212] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupmultipart.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.212] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.blockstatecache.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.213] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.dedupbakedquad.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.214] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.threaddetec.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.214] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.modelsides.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.214] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for ferritecore.accessors.mixin.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.279] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.neoforge.Issue1487 will be loaded as it matches versions: 21.1.214 in [21.,)
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, main.accessor.PlayerAdvancementsAccessor]
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.neoforge.Issue1486 will be loaded as it matches versions: 21.1.214 in [21.,)
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.21.1 in 1.21.1
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.21.1 in 1.21.1
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.geckolib.UntrackedIssue001 will be loaded as it matches versions: 4.8.2 in *
-[11nov2025 13:50:21.576] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.SingletonGeoAnimatableMixin]
-[11nov2025 13:50:21.577] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.Issue22 will be loaded as it matches versions: 9.5.1+1.21.1 in [9.0.6,)
-[11nov2025 13:50:21.577] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
-[11nov2025 13:50:21.579] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.21.1 in 1.20.1
-[11nov2025 13:50:21.579] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin]
-[11nov2025 13:50:21.588] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.diag.common.mods.minecraft.LogSavedData will be loaded as it matches versions: 21.1.214 in [21.1,)
-[11nov2025 13:50:21.588] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.SavedDataMixin]
-[11nov2025 13:50:21.881] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[11nov2025 13:50:22.720] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (4.877 s after launch)
-[11nov2025 13:50:25.886] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3162 milliseconds
-[11nov2025 13:50:26.018] [modloading-worker-0/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
-[11nov2025 13:50:26.109] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.214, for MC 1.21.1
-[11nov2025 13:50:26.192] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.5+1.21.1!
-[11nov2025 13:50:26.235] [modloading-worker-0/INFO] [Advanced Peripherals/]: mekanism not loaded, skip integration loading
-[11nov2025 13:50:26.235] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for mekanism
-[11nov2025 13:50:26.235] [modloading-worker-0/INFO] [Advanced Peripherals/]: powah not loaded, skip integration loading
-[11nov2025 13:50:26.237] [modloading-worker-0/WARN] [Advanced Peripherals/]: Failed to load integration for powah
-[11nov2025 13:50:27.038] [modloading-worker-0/INFO] [com.atsuishio.superbwarfare.Mod/]: This Mod used to be made by MCreator!
-[11nov2025 13:50:27.189] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ae2wtlib] Starting version check at https://api.modrinth.com/updates/applied-energistics-2-wireless-terminals/forge_updates.json?neoforge=only
-[11nov2025 13:50:27.397] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11nov2025 13:50:27.522] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/CloverOS-Testing-Server/Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23133!/assets/.mcassetsroot' uses unexpected schema
-[11nov2025 13:50:27.523] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/CloverOS-Testing-Server/Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23133!/data/.mcassetsroot' uses unexpected schema
-[11nov2025 13:50:27.632] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [ae2wtlib] Found status: UP_TO_DATE Current: 19.2.6 Target: null
-[11nov2025 13:50:27.632] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[11nov2025 13:50:27.789] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [computercraft] Found status: BETA Current: 1.116.2 Target: null
-[11nov2025 13:50:28.398] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[11nov2025 13:50:28.401] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpawnExtraGridTestTools for plots
-[11nov2025 13:50:28.401] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.CrystalResonanceGeneratorTestPlots for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InterfaceTestPlots for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InvalidPatternTestPlot for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[11nov2025 13:50:28.402] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[11nov2025 13:50:28.407] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[11nov2025 13:50:28.407] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[11nov2025 13:50:28.407] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[11nov2025 13:50:28.408] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[11nov2025 13:50:28.408] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ExternalEnergyTestPlots for plots
-[11nov2025 13:50:28.408] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[11nov2025 13:50:28.408] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[11nov2025 13:50:28.409] [Worker-Main-3/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[11nov2025 13:50:28.409] [Worker-Main-3/INFO] [AE2:C/]: Scanning class de.mari_023.ae2wtlib.AE2wtlibTestPlots for plots
-[11nov2025 13:50:28.644] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe superbwarfare:compat/patchouli/superb_warfare_manual_crafting: com.google.gson.JsonParseException: No component with type: 'patchouli:book'; No component with type: 'patchouli:book' missed input: {"patchouli:book":"superbwarfare:superb_warfare_manual"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: patchouli:guide_book
-[11nov2025 13:50:28.679] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2176 recipes
-[11nov2025 13:50:28.813] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2209 advancements
-[11nov2025 13:50:28.823] [main/INFO] [Curios API/]: Loaded 12 curio slots
-[11nov2025 13:50:28.825] [main/INFO] [Curios API/]: Loaded 1 curio entities
-[11nov2025 13:50:28.956] [main/WARN] [ModernFix/]: Initial datapack load took 1.421 s
-[11nov2025 13:50:29.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
-[11nov2025 13:50:29.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11nov2025 13:50:29.313] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[11nov2025 13:50:29.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11nov2025 13:50:29.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25568
-[11nov2025 13:50:29.416] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[11nov2025 13:50:29.451] [Server thread/INFO] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Found config file override in path .\world\serverconfig\computercraft-server.toml
-[11nov2025 13:50:29.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11nov2025 13:50:29.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11nov2025 13:50:29.799] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11nov2025 13:50:29.887] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 235 ms
-[11nov2025 13:50:29.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.439s)! For help, type "help"
-[11nov2025 13:50:29.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting GS4 status listener
-[11nov2025 13:50:29.897] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener started
-[11nov2025 13:50:29.897] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
-[11nov2025 13:50:29.897] [Query Listener #1/INFO] [net.minecraft.server.rcon.thread.QueryThreadGs4/]: Query running on 0.0.0.0:25568
-[11nov2025 13:50:29.899] [Server thread/WARN] [net.minecraft.server.rcon.thread.RconThread/]: No rcon password set in server.properties, rcon disabled!
-[11nov2025 13:50:29.931] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[11nov2025 13:50:30.180] [Server thread/WARN] [ModernFix/]: Dedicated server took 12.338 seconds to load
-[11nov2025 13:50:32.220] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player PalorderCeo is 78d8e34d-5d1a-4b2d-85e2-f0792d9e1a6c
-[11nov2025 13:50:32.838] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PalorderCeo[/127.0.0.1:49878] logged in with entity id 16 at (10.017551329620812, -60.0, 1.207522686167056)
-[11nov2025 13:50:32.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo joined the game
-[11nov2025 13:55:37.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo has made the advancement [Ice Bucket Challenge]
-[11nov2025 14:00:30.196] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[11nov2025 14:00:30.198] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[11nov2025 14:00:30.198] [Server thread/INFO] [AllTheLeaks/]: Waiting to stabilize [8/10]
-[11nov2025 14:00:30.199] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
-[11nov2025 14:09:04.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:09:41.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Killed 5 entities]
-[11nov2025 14:09:49.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo has reached the goal [Postmortal]
-[11nov2025 14:09:49.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:53.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:54.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:55.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:55.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:56.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:56.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:57.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:58.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:59.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:09:59.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:00.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:00.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:09.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Gamerule keepInventory is now set to: true]
-[11nov2025 14:10:10.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:10.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:11.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:12.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:16.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:16.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:17.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:20.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Failed to update secure chat state for PalorderCeo: 'Chat disabled due to missing profile public key. Please try reconnecting.'
-[11nov2025 14:10:21.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:22.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:24.128] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Failed to update secure chat state for PalorderCeo: 'Chat disabled due to missing profile public key. Please try reconnecting.'
-[11nov2025 14:10:24.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:25.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:26.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:26.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo died
-[11nov2025 14:10:26.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:10:26.850] [Server thread/ERROR] [AllTheLeaks/]: Cloned player is invalid, removal reason is null!
+[25Nov2025 00:02:03.757] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 00:02:03.836] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 00:02:03.837] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 00:02:03.838] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 00:02:03.840] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 00:02:03.842] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 694MB / Diff: +241MB
+[25Nov2025 00:02:03.844] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 00:02:03.845] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 00:02:03.847] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 00:02:03.849] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 00:02:03.849] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 00:12:03.810] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 00:12:03.811] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 00:12:03.812] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 00:12:03.814] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 00:12:03.815] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 00:12:03.815] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 694MB / Diff: +241MB
+[25Nov2025 00:12:03.815] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 00:12:03.816] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 00:12:03.817] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 00:12:03.817] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 00:12:03.818] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 00:22:03.862] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 00:22:03.863] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 00:22:03.864] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 00:22:03.865] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 00:22:03.865] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 00:22:03.866] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 694MB / Diff: +241MB
+[25Nov2025 00:22:03.866] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 00:22:03.867] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 00:22:03.867] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 00:22:03.868] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 00:22:03.869] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 00:32:03.912] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 00:32:03.913] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 00:32:03.915] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 00:32:03.916] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 00:32:03.916] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 00:32:03.916] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 694MB / Diff: +241MB
+[25Nov2025 00:32:03.917] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 00:32:03.917] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 00:32:03.918] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 00:32:03.920] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 00:32:03.921] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 00:42:03.965] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 00:42:03.965] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 00:42:03.967] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 00:42:03.970] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 00:42:03.972] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 00:42:03.973] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 694MB / Diff: +241MB
+[25Nov2025 00:42:03.974] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 00:42:03.975] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 00:42:03.976] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 00:42:03.977] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 00:42:03.978] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 00:52:04.017] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 00:52:04.018] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 00:52:04.019] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 00:52:04.020] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 00:52:04.020] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 00:52:04.020] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 666MB / Diff: +213MB
+[25Nov2025 00:52:04.021] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 00:52:04.021] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 00:52:04.021] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 00:52:04.021] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 00:52:04.022] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 01:02:04.067] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 01:02:04.068] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 01:02:04.069] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 01:02:04.069] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 01:02:04.069] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 01:02:04.070] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 666MB / Diff: +213MB
+[25Nov2025 01:02:04.070] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 01:02:04.070] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 01:02:04.070] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 01:02:04.071] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 01:02:04.072] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 01:12:04.120] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 01:12:04.122] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 01:12:04.123] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 01:12:04.124] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 01:12:04.124] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 01:12:04.124] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 666MB / Diff: +213MB
+[25Nov2025 01:12:04.124] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 01:12:04.124] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 01:12:04.125] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 01:12:04.125] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 01:12:04.126] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 01:22:04.170] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 01:22:04.171] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 01:22:04.172] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 01:22:04.173] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 01:22:04.173] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 01:22:04.174] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 666MB / Diff: +213MB
+[25Nov2025 01:22:04.174] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 01:22:04.174] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 01:22:04.175] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 3
+[25Nov2025 01:22:04.175] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 01:22:04.175] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 7915
+[25Nov2025 01:32:04.222] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 01:32:04.223] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 01:32:04.224] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 01:32:04.225] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 01:32:04.225] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 01:32:04.257] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 623MB / Diff: +170MB
+[25Nov2025 01:32:04.258] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 01:42:04.274] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 01:42:04.274] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 01:42:04.274] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 01:42:04.276] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 01:42:04.277] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 01:42:04.278] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 623MB / Diff: +170MB
+[25Nov2025 01:42:04.278] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 01:52:04.325] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 01:52:04.326] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 01:52:04.327] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 01:52:04.328] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 01:52:04.329] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 01:52:04.329] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 623MB / Diff: +170MB
+[25Nov2025 01:52:04.329] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 02:02:04.376] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 02:02:04.377] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 02:02:04.378] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 02:02:04.379] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 02:02:04.379] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 02:02:04.379] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 627MB / Diff: +174MB
+[25Nov2025 02:02:04.379] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 02:12:04.429] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 02:12:04.430] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 02:12:04.431] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 02:12:04.431] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 02:12:04.432] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 02:12:04.433] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 627MB / Diff: +174MB
+[25Nov2025 02:12:04.433] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 02:22:04.480] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 02:22:04.481] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 02:22:04.482] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 02:22:04.482] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 02:22:04.482] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 02:22:04.483] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 627MB / Diff: +174MB
+[25Nov2025 02:22:04.483] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 02:32:04.530] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 02:32:04.531] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 02:32:04.532] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 02:32:04.533] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 02:32:04.533] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 02:32:04.533] [Server thread/INFO] [AllTheLeaks/]: B: 453MB / C: 627MB / Diff: +174MB
+[25Nov2025 02:32:04.534] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 02:42:04.581] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 02:42:04.582] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 02:42:04.583] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 02:42:04.583] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 02:42:04.584] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 02:42:04.585] [Server thread/INFO] [AllTheLeaks/]: B: 433MB / C: 433MB / Diff: +0MB
+[25Nov2025 02:42:04.585] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 02:52:04.640] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 02:52:04.641] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 02:52:04.641] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 02:52:04.641] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 02:52:04.642] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 02:52:04.642] [Server thread/INFO] [AllTheLeaks/]: B: 433MB / C: 433MB / Diff: +0MB
+[25Nov2025 02:52:04.643] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 03:02:04.698] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 03:02:04.699] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 03:02:04.700] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 03:02:04.700] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 03:02:04.701] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 03:02:04.701] [Server thread/INFO] [AllTheLeaks/]: B: 433MB / C: 433MB / Diff: +0MB
+[25Nov2025 03:02:04.702] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 03:12:04.756] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 03:12:04.757] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 03:12:04.757] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 03:12:04.758] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 03:12:04.759] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 03:12:04.759] [Server thread/INFO] [AllTheLeaks/]: B: 433MB / C: 433MB / Diff: +0MB
+[25Nov2025 03:12:04.760] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 03:22:04.815] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 03:22:04.816] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 03:22:04.817] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 03:22:04.818] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 03:22:04.818] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 03:22:04.818] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 03:22:04.818] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 03:32:04.870] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 03:32:04.871] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 03:32:04.872] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 03:32:04.872] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 03:32:04.873] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 03:32:04.873] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 03:32:04.873] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 03:42:04.926] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 03:42:04.927] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 03:42:04.928] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 03:42:04.928] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 03:42:04.929] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 03:42:04.929] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 03:42:04.930] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 03:52:04.981] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 03:52:04.982] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 03:52:04.984] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 03:52:04.984] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 03:52:04.984] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 03:52:04.984] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 03:52:04.985] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 04:02:05.035] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 04:02:05.036] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 04:02:05.036] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 04:02:05.037] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 04:02:05.037] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 04:02:05.038] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 04:02:05.038] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 04:12:05.088] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 04:12:05.089] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 04:12:05.090] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 04:12:05.091] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 04:12:05.091] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 04:12:05.092] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 04:12:05.092] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 04:22:05.140] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 04:22:05.141] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 04:22:05.141] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 04:22:05.142] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 04:22:05.142] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 04:22:05.143] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 04:22:05.144] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 04:32:05.194] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 04:32:05.194] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 04:32:05.195] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 04:32:05.196] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 04:32:05.196] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 04:32:05.197] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 04:32:05.197] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 04:42:05.246] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 04:42:05.246] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 04:42:05.247] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 04:42:05.248] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 04:42:05.248] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 04:42:05.249] [Server thread/INFO] [AllTheLeaks/]: B: 392MB / C: 392MB / Diff: +0MB
+[25Nov2025 04:42:05.249] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 04:52:05.297] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 04:52:05.298] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 04:52:05.299] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 04:52:05.300] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 04:52:05.300] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 04:52:05.301] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 359MB / Diff: +0MB
+[25Nov2025 04:52:05.301] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 05:02:05.350] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 05:02:05.351] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 05:02:05.351] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 05:02:05.352] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 05:02:05.353] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 05:02:05.353] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 359MB / Diff: +0MB
+[25Nov2025 05:02:05.353] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 05:12:05.401] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 05:12:05.402] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 05:12:05.403] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 05:12:05.403] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 05:12:05.404] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 05:12:05.404] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 359MB / Diff: +0MB
+[25Nov2025 05:12:05.405] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 05:22:05.454] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 05:22:05.455] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 05:22:05.455] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 05:22:05.456] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 05:22:05.456] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 05:22:05.457] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 359MB / Diff: +0MB
+[25Nov2025 05:22:05.457] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 05:32:05.505] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 05:32:05.506] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 05:32:05.506] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 05:32:05.507] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 05:32:05.507] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 05:32:05.508] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 359MB / Diff: +0MB
+[25Nov2025 05:32:05.508] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 05:42:05.558] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 05:42:05.558] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 05:42:05.558] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 05:42:05.559] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 05:42:05.560] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 05:42:05.560] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 361MB / Diff: +2MB
+[25Nov2025 05:42:05.561] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 05:52:05.608] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 05:52:05.609] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 05:52:05.609] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 05:52:05.610] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 05:52:05.610] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 05:52:05.610] [Server thread/INFO] [AllTheLeaks/]: B: 359MB / C: 361MB / Diff: +2MB
+[25Nov2025 05:52:05.610] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 06:02:05.660] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 06:02:05.661] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 06:02:05.662] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 06:02:05.663] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 06:02:05.663] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 06:02:05.663] [Server thread/INFO] [AllTheLeaks/]: B: 350MB / C: 350MB / Diff: +0MB
+[25Nov2025 06:02:05.664] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 06:12:05.711] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 06:12:05.712] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 06:12:05.714] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 06:12:05.716] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 06:12:05.719] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 06:12:05.721] [Server thread/INFO] [AllTheLeaks/]: B: 350MB / C: 350MB / Diff: +0MB
+[25Nov2025 06:12:05.722] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 06:22:05.764] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 06:22:05.766] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 06:22:05.766] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 06:22:05.766] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 06:22:05.767] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 06:22:05.767] [Server thread/INFO] [AllTheLeaks/]: B: 348MB / C: 348MB / Diff: +0MB
+[25Nov2025 06:22:05.768] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 06:32:05.814] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 06:32:05.815] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 06:32:05.816] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 06:32:05.816] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 06:32:05.817] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 06:32:05.818] [Server thread/INFO] [AllTheLeaks/]: B: 348MB / C: 348MB / Diff: +0MB
+[25Nov2025 06:32:05.818] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 06:42:05.866] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 06:42:05.867] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 06:42:05.868] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 06:42:05.868] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 06:42:05.869] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 06:42:05.870] [Server thread/INFO] [AllTheLeaks/]: B: 348MB / C: 348MB / Diff: +0MB
+[25Nov2025 06:42:05.870] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 06:52:05.919] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 06:52:05.920] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 06:52:05.921] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 06:52:05.921] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 06:52:05.921] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 06:52:05.922] [Server thread/INFO] [AllTheLeaks/]: B: 348MB / C: 349MB / Diff: +1MB
+[25Nov2025 06:52:05.922] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 07:02:05.972] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 07:02:05.972] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 07:02:05.973] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 07:02:05.974] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 07:02:05.974] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 07:02:05.974] [Server thread/INFO] [AllTheLeaks/]: B: 348MB / C: 349MB / Diff: +1MB
+[25Nov2025 07:02:05.975] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 07:12:06.023] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 07:12:06.023] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 07:12:06.024] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 07:12:06.024] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 07:12:06.024] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 07:12:06.025] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 339MB / Diff: +0MB
+[25Nov2025 07:12:06.026] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 07:22:06.074] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 07:22:06.075] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 07:22:06.076] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 07:22:06.077] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 07:22:06.077] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 07:22:06.077] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 339MB / Diff: +0MB
+[25Nov2025 07:22:06.078] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 07:32:06.134] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 07:32:06.135] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 07:32:06.135] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 07:32:06.136] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 07:32:06.136] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 07:32:06.136] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 339MB / Diff: +0MB
+[25Nov2025 07:32:06.137] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 07:42:06.191] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 07:42:06.192] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 07:42:06.193] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 07:42:06.193] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 07:42:06.193] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 07:42:06.193] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 339MB / Diff: +0MB
+[25Nov2025 07:42:06.194] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 07:52:06.256] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 07:52:06.256] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 07:52:06.258] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 07:52:06.258] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 07:52:06.258] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 07:52:06.258] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 343MB / Diff: +4MB
+[25Nov2025 07:52:06.258] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 343MB / Diff: +4MB
+[25Nov2025 08:02:06.314] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 08:12:06.365] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 08:12:06.366] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 08:12:06.366] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 08:12:06.366] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 08:12:06.366] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 08:12:06.366] [Server thread/INFO] [AllTheLeaks/]: B: 339MB / C: 343MB / Diff: +4MB
+[25Nov2025 08:12:06.367] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 08:22:06.435] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 08:22:06.436] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 08:22:06.436] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 08:22:06.438] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 08:22:06.438] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 08:22:06.438] [Server thread/INFO] [AllTheLeaks/]: B: 335MB / C: 335MB / Diff: +0MB
+[25Nov2025 08:22:06.439] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 08:32:06.474] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 08:32:06.476] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 08:32:06.477] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 08:32:06.477] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 08:32:06.477] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 08:32:06.477] [Server thread/INFO] [AllTheLeaks/]: B: 335MB / C: 335MB / Diff: +0MB
+[25Nov2025 08:32:06.477] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 08:42:06.533] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 08:42:06.533] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 08:42:06.534] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 08:42:06.534] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 08:42:06.534] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 08:42:06.534] [Server thread/INFO] [AllTheLeaks/]: B: 334MB / C: 334MB / Diff: +0MB
+[25Nov2025 08:42:06.534] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 08:52:06.583] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 08:52:06.583] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 08:52:06.583] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 08:52:06.583] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 08:52:06.584] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 08:52:06.584] [Server thread/INFO] [AllTheLeaks/]: B: 334MB / C: 334MB / Diff: +0MB
+[25Nov2025 08:52:06.584] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 09:02:06.639] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 09:02:06.639] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 09:02:06.640] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 09:02:06.640] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 09:02:06.640] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 09:02:06.640] [Server thread/INFO] [AllTheLeaks/]: B: 333MB / C: 333MB / Diff: +0MB
+[25Nov2025 09:02:06.643] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 09:12:06.694] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 09:12:06.694] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 09:12:06.695] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 09:12:06.695] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 09:12:06.695] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 09:12:06.695] [Server thread/INFO] [AllTheLeaks/]: B: 333MB / C: 333MB / Diff: +0MB
+[25Nov2025 09:12:06.695] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 325MB / Diff: +0MB
+[25Nov2025 09:22:06.757] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 09:32:06.792] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 09:32:06.792] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 09:32:06.792] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 09:32:06.792] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 09:32:06.793] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 09:32:06.794] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 325MB / Diff: +0MB
+[25Nov2025 09:32:06.795] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 09:42:06.844] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 09:42:06.844] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 09:42:06.844] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 09:42:06.844] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 09:42:06.845] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 09:42:06.845] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 328MB / Diff: +3MB
+[25Nov2025 09:42:06.845] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 328MB / Diff: +3MB
+[25Nov2025 09:52:06.891] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 328MB / Diff: +3MB
+[25Nov2025 10:02:06.941] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 325MB / Diff: +0MB
+[25Nov2025 10:12:06.999] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 10:22:07.053] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 10:22:07.053] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 10:22:07.053] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 10:22:07.053] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 10:22:07.054] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 10:22:07.054] [Server thread/INFO] [AllTheLeaks/]: B: 325MB / C: 325MB / Diff: +0MB
+[25Nov2025 10:22:07.054] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]: B: 320MB / C: 320MB / Diff: +0MB
+[25Nov2025 10:32:07.099] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 10:42:07.152] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 10:42:07.152] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 10:42:07.152] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 10:42:07.152] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 10:42:07.153] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 10:42:07.154] [Server thread/INFO] [AllTheLeaks/]: B: 320MB / C: 320MB / Diff: +0MB
+[25Nov2025 10:42:07.155] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]: B: 320MB / C: 322MB / Diff: +2MB
+[25Nov2025 10:52:07.212] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 11:02:07.263] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 11:02:07.264] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 11:02:07.264] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 11:02:07.265] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 11:02:07.266] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 11:02:07.267] [Server thread/INFO] [AllTheLeaks/]: B: 320MB / C: 322MB / Diff: +2MB
+[25Nov2025 11:02:07.267] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]: B: 320MB / C: 322MB / Diff: +2MB
+[25Nov2025 11:12:07.304] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 11:22:07.361] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 11:22:07.362] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 11:22:07.363] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 11:22:07.363] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 11:22:07.364] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 11:22:07.364] [Server thread/INFO] [AllTheLeaks/]: B: 320MB / C: 322MB / Diff: +2MB
+[25Nov2025 11:22:07.364] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]: B: 317MB / C: 317MB / Diff: +0MB
+[25Nov2025 11:32:07.408] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]: B: 317MB / C: 317MB / Diff: +0MB
+[25Nov2025 11:42:07.457] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 11:52:07.521] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 11:52:07.522] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 11:52:07.522] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 11:52:07.522] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 11:52:07.522] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 11:52:07.522] [Server thread/INFO] [AllTheLeaks/]: B: 316MB / C: 316MB / Diff: +0MB
+[25Nov2025 11:52:07.522] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]: B: 316MB / C: 316MB / Diff: +0MB
+[25Nov2025 12:02:07.587] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]: B: 316MB / C: 317MB / Diff: +1MB
+[25Nov2025 12:12:07.626] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 12:22:07.674] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 12:22:07.674] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 12:22:07.674] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 12:22:07.674] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 12:22:07.674] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 12:22:07.675] [Server thread/INFO] [AllTheLeaks/]: B: 316MB / C: 317MB / Diff: +1MB
+[25Nov2025 12:22:07.675] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 12:32:07.741] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 12:32:07.741] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 12:32:07.742] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 12:32:07.742] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 12:32:07.742] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 12:32:07.742] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 313MB / Diff: +0MB
+[25Nov2025 12:32:07.742] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 12:42:07.809] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 12:42:07.809] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 12:42:07.810] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 12:42:07.810] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 12:42:07.810] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 12:42:07.810] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 313MB / Diff: +0MB
+[25Nov2025 12:42:07.810] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 313MB / Diff: +0MB
+[25Nov2025 12:52:07.852] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 13:02:07.901] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 13:02:07.902] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 155
+[25Nov2025 13:02:07.902] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 155
+[25Nov2025 13:02:07.902] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 13:02:07.902] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 13:02:07.902] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 313MB / Diff: +0MB
+[25Nov2025 13:02:07.903] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 13:04:58.787] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: PalorderCeo[/127.73.168.237:57297] logged in with entity id 1712 at (117.14746376425676, -60.0, 117.36233537764701)
+[25Nov2025 13:04:59.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo joined the game
+[25Nov2025 13:07:38.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo was killed
+[25Nov2025 13:07:38.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Killed PalorderCeo]
+[25Nov2025 13:07:38.706] [Server thread/ERROR] [AllTheLeaks/]: Cloned player is invalid, removal reason is null!
 dev.uncandango.alltheleaks.exceptions.ATLIllegalState: Cannot have null removal reason on Clone event!
 	at TRANSFORMER/alltheleaks@1.1.0+1.21.1-neoforge/dev.uncandango.alltheleaks.events.CommonEvents.onPlayerCloneLowest(CommonEvents.java:190) ~[alltheleaks-1.1.0+1.21.1-neoforge.jar%23137!/:1.1.0+1.21.1-neoforge]
 	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%2362!/:?]
@@ -302,240 +611,130 @@ dev.uncandango.alltheleaks.exceptions.ATLIllegalState: Cannot have null removal 
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:855) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:849) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:821) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$managedBlock$283(MinecraftServer.java) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$zde000$modernfix$managedBlock(MinecraftServer.java:2154) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:826) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:825) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:712) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
 	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11nov2025 14:10:30.240] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[11nov2025 14:10:30.240] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
-[11nov2025 14:10:30.240] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 1
-[11nov2025 14:10:30.241] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[11nov2025 14:10:30.243] [Server thread/INFO] [AllTheLeaks/]: B: 499MB / C: 499MB / Diff: +0MB
-[11nov2025 14:10:30.243] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[11nov2025 14:10:30.244] [Server thread/INFO] [AllTheLeaks/]: | Player:
-[11nov2025 14:10:30.244] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[11nov2025 14:10:31.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Adventure Mode]
-[11nov2025 14:10:36.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:10:53.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Adventure Mode]
-[11nov2025 14:10:56.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:10:57.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Adventure Mode]
-[11nov2025 14:11:05.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:11:14.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Adventure Mode]
-[11nov2025 14:11:18.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:11:24.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:12:54.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:12:57.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100000.0 damage to PalorderCeo]
-[11nov2025 14:12:57.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:00.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:00.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:01.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:02.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:02.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:03.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:04.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:04.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:05.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:06.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:06.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:07.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:09.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:09.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:10.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:11.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:11.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:12.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:15.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:16.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:19.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:21.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo died
-[11nov2025 14:13:21.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 100.0 damage to PalorderCeo]
-[11nov2025 14:13:21.417] [Server thread/ERROR] [AllTheLeaks/]: Cloned player is invalid, removal reason is null!
-dev.uncandango.alltheleaks.exceptions.ATLIllegalState: Cannot have null removal reason on Clone event!
-	at TRANSFORMER/alltheleaks@1.1.0+1.21.1-neoforge/dev.uncandango.alltheleaks.events.CommonEvents.onPlayerCloneLowest(CommonEvents.java:190) ~[alltheleaks-1.1.0+1.21.1-neoforge.jar%23137!/:1.1.0+1.21.1-neoforge]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%2362!/:?]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%2362!/:?]
-	at TRANSFORMER/neoforge@21.1.214/net.neoforged.neoforge.event.EventHooks.onPlayerClone(EventHooks.java:594) ~[neoforge-21.1.214-universal.jar%23134!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.restoreFrom(ServerPlayer.java:1455) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.respawn(PlayerList.java:459) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.handleClientCommand(ServerGamePacketListenerImpl.java:1637) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ServerboundClientCommandPacket.handle(ServerboundClientCommandPacket.java:32) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ServerboundClientCommandPacket.handle(ServerboundClientCommandPacket.java:8) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:27) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:170) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:855) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:849) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:821) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$managedBlock$283(MinecraftServer.java) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$zde000$modernfix$managedBlock(MinecraftServer.java:2154) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:826) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:712) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11nov2025 14:13:21.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PalorderCeo moved too quickly! 17.835139650118315,0.0,114.0024535769785
-[11nov2025 14:13:23.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:13:59.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Summoned new Zombie]
-[11nov2025 14:14:03.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: The difficulty has been set to Easy]
-[11nov2025 14:15:25.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:15:27.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:15:59.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:16:07.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:16:29.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unclosed quoted string
-[11nov2025 14:16:29.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...netherite_<--[HERE]
-[11nov2025 14:16:55.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:16:59.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[11nov2025 14:16:59.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ]execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}<--[HERE]
-[11nov2025 14:17:00.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:17:01.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected whitespace to end one argument, but found trailing data
-[11nov2025 14:17:01.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...s:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}<--[HERE]
-[11nov2025 14:17:03.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:17:03.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[11nov2025 14:17:03.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
-[11nov2025 14:17:06.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:17:07.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[11nov2025 14:17:07.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
-[11nov2025 14:17:07.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[11nov2025 14:17:07.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
-[11nov2025 14:17:07.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[11nov2025 14:17:07.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <--[HERE]
-[11nov2025 14:18:31.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unclosed quoted string
-[11nov2025 14:18:31.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...netherite_<--[HERE]
-[11nov2025 14:18:40.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected '}'
-[11nov2025 14:18:40.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...ems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}<--[HERE]
-[11nov2025 14:18:41.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:18:42.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected whitespace to end one argument, but found trailing data
-[11nov2025 14:18:42.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...s:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}<--[HERE]
-[11nov2025 14:18:43.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:18:44.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:18:45.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:18:46.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:01.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:20:28.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:29.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:30.287] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 2
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 2
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: B: 499MB / C: 518MB / Diff: +19MB
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: | Player:
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
-[11nov2025 14:20:30.288] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 139
-[11nov2025 14:20:30.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:31.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:31.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:32.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:20:46.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:20:59.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:21:48.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:21:58.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:22:07.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:22:21.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:22:30.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:22:55.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: The difficulty has been set to Hard]
-[11nov2025 14:24:00.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:24:01.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:24:08.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:24:08.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:24:10.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:24:11.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected whitespace to end one argument, but found trailing data
-[11nov2025 14:24:11.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...s:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}<--[HERE]
-[11nov2025 14:24:11.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:24:12.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:24:12.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:24:38.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo was slain by Zombie
-[11nov2025 14:24:38.561] [Server thread/ERROR] [AllTheLeaks/]: Cloned player is invalid, removal reason is null!
-dev.uncandango.alltheleaks.exceptions.ATLIllegalState: Cannot have null removal reason on Clone event!
-	at TRANSFORMER/alltheleaks@1.1.0+1.21.1-neoforge/dev.uncandango.alltheleaks.events.CommonEvents.onPlayerCloneLowest(CommonEvents.java:190) ~[alltheleaks-1.1.0+1.21.1-neoforge.jar%23137!/:1.1.0+1.21.1-neoforge]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%2362!/:?]
-	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%2362!/:?]
-	at TRANSFORMER/neoforge@21.1.214/net.neoforged.neoforge.event.EventHooks.onPlayerClone(EventHooks.java:594) ~[neoforge-21.1.214-universal.jar%23134!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerPlayer.restoreFrom(ServerPlayer.java:1455) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.players.PlayerList.respawn(PlayerList.java:459) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.network.ServerGamePacketListenerImpl.handleClientCommand(ServerGamePacketListenerImpl.java:1637) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ServerboundClientCommandPacket.handle(ServerboundClientCommandPacket.java:32) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.game.ServerboundClientCommandPacket.handle(ServerboundClientCommandPacket.java:8) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:27) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:148) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:170) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:855) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:849) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:132) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:821) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$managedBlock$283(MinecraftServer.java) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$zde000$modernfix$managedBlock(MinecraftServer.java:2154) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:826) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:712) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23133!/:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[11nov2025 14:24:38.598] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PalorderCeo moved too quickly! -4.205207459887896,-3.0,40.39183935701928
-[11nov2025 14:24:51.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Gave 25 [Totem of Undying] to PalorderCeo]
-[11nov2025 14:24:59.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:25:02.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:25:22.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:25:34.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:27:25.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:27:49.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:27:55.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 10.0 damage to PalorderCeo]
-[11nov2025 14:27:59.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 20.0 damage to PalorderCeo]
-[11nov2025 14:28:13.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:28:13.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:28:14.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Expected whitespace to end one argument, but found trailing data
-[11nov2025 14:28:14.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ...s:[0f,0f]}execute as PalorderCeo run summon minecraft:zombie ~ ~ ~ {HandItems:[{id:"minecraft:netherite_sword",Count:1,tag:{Enchantments:[{id:"minecraft:sharpness",lvl:5}]}},{}],ArmorItems:[{id:"minecraft:netherite_boots",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_leggings",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_chestplate",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}},{id:"minecraft:netherite_helmet",Count:1,tag:{Enchantments:[{id:"minecraft:protection",lvl:4}]}}],ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f]}<--[HERE]
-[11nov2025 14:28:15.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:02.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:03.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:03.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:04.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:04.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:05.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:29:05.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Summoned new Zombie
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: Listing events...
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 3
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 3
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: B: 499MB / C: 510MB / Diff: +11MB
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: | Player:
-[11nov2025 14:30:30.351] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
-[11nov2025 14:31:11.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:31:28.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:31:33.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 10.0 damage to PalorderCeo]
-[11nov2025 14:31:35.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 20.0 damage to PalorderCeo]
-[11nov2025 14:31:43.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Applied 20.0 damage to PalorderCeo]
-[11nov2025 14:31:52.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:32:02.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:32:10.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
-[11nov2025 14:32:26.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Survival Mode]
-[11nov2025 14:32:41.939] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PalorderCeo lost connection: Disconnected
-[11nov2025 14:32:41.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo left the game
-[11nov2025 14:32:47.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[11nov2025 14:32:47.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: exit<--[HERE]
-[11nov2025 14:32:49.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[11nov2025 14:32:49.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[11nov2025 14:32:49.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[11nov2025 14:32:49.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[11nov2025 14:32:49.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/minecraft:overworld
-[11nov2025 14:32:49.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/minecraft:the_end
-[11nov2025 14:32:49.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/minecraft:the_nether
-[11nov2025 14:32:49.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/ae2:spatial_storage
-[11nov2025 14:32:49.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11nov2025 14:32:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11nov2025 14:32:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11nov2025 14:32:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[11nov2025 14:32:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11nov2025 14:32:50.961] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener stopped
+[25Nov2025 13:09:01.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Removed 5 item(s) from player PalorderCeo]
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 614MB / Diff: +301MB
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 13:12:07.949] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 992
+[25Nov2025 13:18:33.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set the time to 1000]
+[25Nov2025 13:21:03.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo has made the advancement [Networking Switchboard]
+[25Nov2025 13:21:16.103] [Server thread/INFO] [AE2:S/]: Assigning ME player id 0 to Minecraft profile 33909bea-79f1-3cf6-a597-068954e51686 (PalorderCeo)
+[25Nov2025 13:22:08.002] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 13:22:08.003] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 13:22:08.004] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 13:22:08.004] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 13:22:08.004] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 13:22:08.005] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 555MB / Diff: +242MB
+[25Nov2025 13:22:08.005] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 13:22:08.005] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 13:22:08.007] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[25Nov2025 13:22:08.007] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 13:22:08.007] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 189
+[25Nov2025 13:22:40.287] [Server thread/INFO] [appeng.server.subcommands.GridsCommand/]: Exporting 1 grids for net.minecraft.commands.CommandSourceStack@3f3c211e
+[25Nov2025 13:23:16.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo has made the advancement [Network Apprentice]
+[25Nov2025 13:23:29.550] [Server thread/INFO] [AE2:S/]: net.minecraft.commands.CommandSourceStack@3d05b407 is changing channel mode to INFINITE
+[25Nov2025 13:23:38.267] [Server thread/INFO] [AE2:S/]: net.minecraft.commands.CommandSourceStack@345d8cec is changing channel mode to INFINITE
+[25Nov2025 13:24:31.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Killed 119 entities]
+[25Nov2025 13:30:08.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Killed 21 entities]
+[25Nov2025 13:32:08.048] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 13:32:08.049] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 13:32:08.049] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 13:32:08.049] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 13:32:08.050] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 13:32:08.050] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 539MB / Diff: +226MB
+[25Nov2025 13:32:08.050] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 13:32:08.051] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 13:32:08.051] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[25Nov2025 13:32:55.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Killed 54 entities]
+[25Nov2025 13:42:08.101] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 13:42:08.102] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 13:42:08.102] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 13:42:08.102] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 13:42:08.103] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 13:42:08.103] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 519MB / Diff: +206MB
+[25Nov2025 13:42:08.103] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 13:42:08.104] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 13:42:08.104] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[25Nov2025 13:50:37.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Spectator Mode]
+[25Nov2025 13:50:54.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Set own game mode to Creative Mode]
+[25Nov2025 13:52:08.155] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 13:52:08.155] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 13:52:08.156] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 13:52:08.156] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 13:52:08.156] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 13:52:08.156] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 772MB / Diff: +459MB
+[25Nov2025 13:52:08.157] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 13:52:08.157] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[25Nov2025 13:52:08.157] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[25Nov2025 13:52:08.157] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 13:52:08.157] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3371
+[25Nov2025 13:57:42.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Killed 2 entities]
+[25Nov2025 14:01:19.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo has made the advancement [A (Much) Bigger Table]
+[25Nov2025 14:01:39.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [PalorderCeo: Gave 1 [Debug Stick] to PalorderCeo]
+[25Nov2025 14:02:08.205] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 14:02:08.205] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 14:02:08.205] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 14:02:08.206] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 14:02:08.206] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 14:02:08.206] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 586MB / Diff: +273MB
+[25Nov2025 14:02:08.206] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 14:02:08.207] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 14:02:08.207] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 741
+[25Nov2025 14:12:08.256] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 14:12:08.257] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 14:12:08.257] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 14:12:08.257] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 14:12:08.257] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 14:12:08.257] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 556MB / Diff: +243MB
+[25Nov2025 14:12:08.258] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[25Nov2025 14:12:08.258] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[25Nov2025 14:12:08.258] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 134
+[25Nov2025 14:22:08.308] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[25Nov2025 14:22:08.308] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 156
+[25Nov2025 14:22:08.309] [Server thread/INFO] [AllTheLeaks/]:   Invalid Cloned Players: 156
+[25Nov2025 14:22:08.309] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 4
+[25Nov2025 14:22:08.309] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[25Nov2025 14:22:08.309] [Server thread/INFO] [AllTheLeaks/]: B: 313MB / C: 533MB / Diff: +220MB
+[25Nov2025 14:22:08.309] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[25Nov2025 14:25:49.958] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: PalorderCeo lost connection: Disconnected
+[25Nov2025 14:25:49.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: PalorderCeo left the game
+[25Nov2025 14:25:50.028] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[25Nov2025 14:31:02.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Nov2025 14:31:02.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Nov2025 14:31:02.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Nov2025 14:31:02.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Nov2025 14:31:02.901] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@1aa55513 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.902] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@90911b3 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.905] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@10d77faf called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.906] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@45d85ce3 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.908] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@506e5086 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.913] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@1e22e16 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.914] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@214b7ff3 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.977] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@94112d8 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.982] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@596ad39d called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.984] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@40fc477d called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.985] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@627b3479 called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.985] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@296f33ee called mount but did not call unmount for [null]
+[25Nov2025 14:31:02.986] [Server thread/WARN] [dan200.computercraft.shared.peripheral.modem.wired.WiredModemPeripheral/]: Peripheral dan200.computercraft.shared.peripheral.diskdrive.DiskDrivePeripheral@23f18179 called mount but did not call unmount for [null]
+[25Nov2025 14:31:03.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/minecraft:overworld
+[25Nov2025 14:31:03.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/minecraft:the_nether
+[25Nov2025 14:31:03.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/minecraft:the_end
+[25Nov2025 14:31:03.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[CloverOS Test Bench]'/ae2:spatial_storage
+[25Nov2025 14:31:03.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Nov2025 14:31:03.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Nov2025 14:31:03.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Nov2025 14:31:03.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[25Nov2025 14:31:03.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Nov2025 14:31:05.440] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread Query Listener stopped

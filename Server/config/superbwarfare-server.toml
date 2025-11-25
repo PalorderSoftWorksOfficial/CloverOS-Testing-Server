@@ -6,7 +6,7 @@
 
 [projectile]
 	#Set true to allow projectiles to destroy certain blocks
-	allow_projectile_destroy_blocks = false
+	allow_projectile_destroy_blocks = true
 
 [explosion]
 	#The percentage of explosion damage you take behind cover
@@ -14,7 +14,7 @@
 	# Range: 0 ~ 100
 	explosion_penetration_ratio = 15
 	#Set true to allow Explosion to destroy blocks
-	explosion_destroy = false
+	explosion_destroy = true
 
 	[explosion."RGO Grenade"]
 		#The explosion damage of RGO grenade
